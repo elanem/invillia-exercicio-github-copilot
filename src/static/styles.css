@@ -74,10 +74,28 @@ section h3 {
   margin-bottom: 8px;
 }
 
-/* Estilo para a lista de participantes */
+/* Estilo aprimorado para a lista de participantes */
 .activity-card p strong {
   color: #1a237e;
   font-weight: bold;
+}
+
+.activity-card .participants {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #0d47a1;
+}
+
+.activity-card .participants span {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 3px 8px;
+  background-color: #bbdefb;
+  border-radius: 3px;
 }
 
 .form-group {
